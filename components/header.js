@@ -20,7 +20,6 @@ export default function Header (props) {
 
             <Navbar.Collapse id="navbarSupportedContent">
               <Nav className="mr-auto">
-                <Nav.Link href="/">Your create</Nav.Link>
                 <Link href="/about">
                   <a className={currentPage === 'about' ? 'active nav-link': 'nav-link'} >About us</a>
                 </Link>
@@ -30,10 +29,10 @@ export default function Header (props) {
               </Nav>
 
               <Nav>
-                  <Nav.Link href="#" className="create-opportunities">Create opportunities</Nav.Link>
+                  <Nav.Link target="blank"href="http://168.1.217.30:31314/login" className="create-opportunities">Create opportunities</Nav.Link>
                 
                 
-                  <Nav.Link href="#" className="login-button">Login</Nav.Link>
+                  <Nav.Link target="blank" href="http://168.1.217.30:31314/login" className="login-button">Login</Nav.Link>
                 
               </Nav>
             </Navbar.Collapse>

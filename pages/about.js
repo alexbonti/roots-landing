@@ -15,7 +15,7 @@ export default function About() {
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vero doloremque ipsam odio porro magni cupiditate expedita modi, deleniti aliquid a veniam? Perferendis exercitationem cum rerum iure possimus reprehenderit voluptatum.</p>
 
-          <a href="#" className="learn-more-button">
+          <a href="/contact" className="learn-more-button">
             Chat with us
           </a>
           </div>
