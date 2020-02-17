@@ -13,8 +13,8 @@ export default function Header (props) {
         <Navbar bg="dark" className="navbar-dark" expand="lg">
           <div className="container-fluid">
             <Navbar.Brand href="/">
-              <img alt="Logo Roots" src="images/favicon.svg" />
-              <span>ROOTS</span>
+              <img alt="Logo MECHID" src="images/favicon.png" />
+              <span style={{margin: "0 3px"}}>MECHID</span>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 

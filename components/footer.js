@@ -9,8 +9,9 @@ export default function Footer()
           <div className="row">
             <div className="col-sm-2">
               <div className="footer-links">
-                <h1>Deakin create</h1>
+                <h1>Mechid </h1>
                 <ul>
+                  
                   <li>
                     <a href="#">Copyright</a>
                   </li>
@@ -19,6 +20,9 @@ export default function Footer()
                   </li>
                   <li>
                     <a href="#">Privacy</a>
+                  </li>
+                  <li>
+                  <a href="https://www.flaticon.com/authors/freepik">Logo from Freepik</a> 
                   </li>
                 </ul>
               </div>
