@@ -29,7 +29,7 @@ export default function Header (props) {
               </Nav>
 
               <Nav>
-                  <Nav.Link target="blank"href="http://168.1.217.30:31314/login" className="create-opportunities">Create opportunities</Nav.Link>
+               
                 
                 
                   <Nav.Link target="blank" href="http://168.1.217.30:31314/login" className="login-button">Login</Nav.Link>
