@@ -43,23 +43,31 @@ export default function Header(props) {
       <section className="banner">
         {/*<img src='/images/banner.jpg' style={{width:'100%'}}></img>
         */}
-        <Container>
+        <Container fluid>
           <Row style={{ paddingTop: '100px' }}>
-            <Col xs={6} md={6} >
+            <Col xs={12} md={6} >
               <div className="text-left" style={{ minHeight: "300px" }}>
                 <h1 className="website-header">
                   Where students, academics and industry come together.
                 </h1>
                 <p>We connect young talents to great opportunities during their most important years</p>
+                <p><b>
+                The site is still under construction, we will have more exciting news and features soon!
+
+                </b>
+                </p>
 
 
-                <a className="learn-more-button">
-                  Sign up
+                <a className="learn-more-button" xs={6} href="http://roots-fe.au-syd.mybluemix.net/">
+                  Students Sign up
+                </a>
+                <a className="learn-more-button" xs={6} href="http://roots-fe-staff.au-syd.mybluemix.net/">
+                  Staff Sign up
                 </a>
 
               </div>            
             </Col>
-            <Col xs={6} md={6}>
+            <Col xs={12} md={6}>
               <img src='/images/banner.jpg' style={{ width: '100%' }}></img>
             </Col>
 

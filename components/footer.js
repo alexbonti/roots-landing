@@ -86,7 +86,7 @@ export default function Footer()
 
           <div className="row">
             <div className="col">
-              <span className="copyright">&copy; Copyright Deakin university</span>
+              <span className="copyright">&copy; Copyright Deakin Launchpad</span>
             </div>
           </div>
         </div>
