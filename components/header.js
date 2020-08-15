@@ -58,11 +58,11 @@ export default function Header(props) {
                 </p>
 
 
-                <a className="learn-more-button" xs={6} href="http://roots-fe.au-syd.mybluemix.net/">
-                  Students Sign up
+                <a className="learn-more-button" xs={6} href="http://168.1.97.85:9001">
+                  Students
                 </a>
-                <a className="learn-more-button" xs={6} href="http://roots-fe-staff.au-syd.mybluemix.net/">
-                  Staff Sign up
+                <a className="learn-more-button" xs={6} href="http://168.1.97.85:9000">
+                  Staff
                 </a>
 
               </div>            
